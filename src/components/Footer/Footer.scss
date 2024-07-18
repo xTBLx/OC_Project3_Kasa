@@ -1,0 +1,23 @@
+@import '../../sass/_theme';
+
+#footer {
+    background-color: $dark-black;
+    height: 25vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 3rem;
+
+    img {
+        width: 122px;
+    }
+
+    p {
+        color: $full-white;
+        font-size: $fs-big-text;
+        margin: 0;
+    }
+  }

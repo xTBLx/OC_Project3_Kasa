@@ -1,0 +1,24 @@
+@import '_theme.scss';
+
+html {
+  height: 100%; 
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  font-family: $main-text-font;
+  color: $dark-black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+root {
+  min-height: 100%;
+  position: relative;
+}
+
+.main-bloc {
+  margin: 0 6rem;
+}
+

@@ -1,0 +1,40 @@
+@import '../../sass/theme';
+
+.collapse {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+
+    .title-box {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        background-color: $main-red;
+        padding: 16px;
+        border-radius: 8px;
+        cursor: pointer;
+
+        h2 {
+            color: $full-white;
+            font-size: $fs-big-text;
+            margin: 0;
+        }
+
+        i {
+            color: $full-white;
+            font-size: $fs-big-text;
+        }
+    }
+
+    .text-box {
+        background-color: $light-gray;
+        padding: 16px;
+        border-radius: 8px;
+
+        p {
+            margin: 0;
+            line-height: 1.5rem;
+        }
+    }
+}

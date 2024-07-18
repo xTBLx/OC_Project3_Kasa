@@ -1,0 +1,25 @@
+@import '../../sass/theme';
+
+#erreur-404 {
+    margin: 0 6rem;
+    text-align: center;
+
+    h1 {
+        color: $main-red;
+        font-size: $fs-404;
+        font-weight: $fw-bold;
+        margin: 0;
+    }
+
+    h2 {
+        color: $main-red;
+        font-size: $fs-subtitle;
+        font-weight: $fw-standard;
+        margin-top: 0;
+    }
+
+    a {
+        color: $dark-black;
+        font-size: $fs-main-text;
+    }
+}
